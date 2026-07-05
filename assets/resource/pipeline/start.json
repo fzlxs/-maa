@@ -352,8 +352,8 @@
         ]
     },
     "竞技场_点击开始_1": {
-        "recognition": "OCR",
-        "expected": "开始",
+        "recognition": "TemplateMatch",
+        "template": "战斗点击开始.png",
         "roi": [
             1147,
             533,
@@ -449,8 +449,8 @@
         ]
     },
     "竞技场_点击开始_2": {
-        "recognition": "OCR",
-        "expected": "开始",
+        "recognition": "TemplateMatch",
+        "template": "战斗点击开始.png",
         "roi": [
             1147,
             533,
@@ -546,8 +546,8 @@
         ]
     },
     "竞技场_点击开始_3": {
-        "recognition": "OCR",
-        "expected": "开始",
+        "recognition": "TemplateMatch",
+        "template": "战斗点击开始.png",
         "roi": [
             1147,
             533,
