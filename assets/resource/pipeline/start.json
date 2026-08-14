@@ -201,7 +201,7 @@
         "roi": [1148, 593, 129, 117],
         "action": "Click",
         "post_delay": 5000,
-        "next": ["远航返回上一步"]
+        "next": ["远航返回"]
     },
     "远航返回":{
         "action": "Click",
@@ -2083,13 +2083,10 @@
         ] // 任务结束
     },
     "领取征服之塔奖励": {
+        "recognition":"TemplateMatch",
+        "template":"征服之塔奖励.png",
         "action": "Click",
-        "target": [
-            327,
-            582,
-            44,
-            52
-        ],
+        "roi": [133, 640, 272, 41], // 限定奖励按钮区域，避免误点其他位置
         "post_delay": 5000,
         "next": [
             "征服之塔_点击返回图片"
